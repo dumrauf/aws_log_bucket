@@ -1,4 +1,4 @@
-region = "us-east-1"
+region = "<your-region>"
 
 shared_credentials_file = "/path/to/.aws/credentials"
 
