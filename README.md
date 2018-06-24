@@ -70,3 +70,8 @@ terraform destroy -var-file=settings/example.tfvars
 ### Why's the Bucket Not Emptied Before It's Destroyed?
 
 The `force_destroy` option is deliberately set to `false` in order to avoid accidental deletion of the contents when running `terraform destroy`. It's essentially a safety net. Feel free to change it and use it at your own risk.
+
+
+## AWS Logging Overview
+
+For a detailed overview of AWS Logging, see the excellent article on [https://logmatic.io/blog/everything-you-need-to-know-about-aws-logging/](https://logmatic.io/blog/everything-you-need-to-know-about-aws-logging/).
