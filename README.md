@@ -19,7 +19,7 @@ After running the Terraform module in this repository you get an S3 bucket which
 ## Setup
 
 The input variables for the module are defined in [settings/example.tfvars](settings/example.tfvars) to be
-```
+```hcl
 region = "us-east-1"
 
 shared_credentials_file = "/path/to/.aws/credentials"
