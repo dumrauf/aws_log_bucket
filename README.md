@@ -2,6 +2,7 @@
 
 This repository contains a Terraform module that creates a logging bucket. The logging bucket can then be used to store [CloudFront access logs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html), [S3 access logs](https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html#how-logs-delivered) or most other of AWS's logs.
 
+> See also the corresponding article on [https://www.how-hard-can-it.be/aws-logging-buckets/](https://www.how-hard-can-it.be/aws-logging-buckets/) for further information.
 
 ## You Have
 
