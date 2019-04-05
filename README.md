@@ -4,6 +4,7 @@ This repository contains a Terraform module that creates a logging bucket. The l
 
 > For further information, see the corresponding article on [https://www.how-hard-can-it.be/aws-logging-buckets/](https://www.how-hard-can-it.be/aws-logging-buckets/).
 
+
 ## You Have
 
 Before you can use the Terraform module in this repository out of the box, you need
