@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "log_bucket" {
-  bucket_prefix = "${var.log_bucket_prefix}"
+  bucket_prefix = var.log_bucket_prefix
   acl           = "log-delivery-write"
 
   server_side_encryption_configuration {
@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "log_bucket" {
   # Set to 'true' if you want the bucket to be emptied before deletion when running 'terraform destroy'
   force_destroy = false
 
-  tags {
+  tags = {
     terraform  = "true"
     log-bucket = "true"
   }

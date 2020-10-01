@@ -12,6 +12,6 @@ variable "profile" {
 }
 
 variable "log_bucket_prefix" {
-  type        = "string"
+  type        = string
   description = "Prefix to use for the new S3 logging bucket"
 }
