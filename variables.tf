@@ -16,9 +16,9 @@ variable "log_bucket_prefix" {
   description = "Prefix to use for the new S3 logging bucket"
 }
 
-variable "is_versioning_enabled" {
-  description = "Enable versioning?"
-  default     = true
+variable "versioning_status" {
+  description = "Versioning status to use"
+  default     = "Enabled"
 }
 
 variable "is_forcing_destroy" {
